@@ -1,0 +1,69 @@
+body {
+  background-color: #093ad6; /* background colour of the body is set to blue */
+  color: white; /* text colour is set to white */
+  }
+h1 {
+  font-family : fantasy; /* font-family is set to fantasy */
+  font-size : 60px; /*font-size is set to 60 pixels*/
+  text-align: center; /* text is aligned to the center of the page */
+}
+h2 {
+  font-family : fantasy;
+  font-size : 30px;
+  text-align: center;
+  border: 5px solid white; /*border is 5px width,solid opacity and white colour */ 
+}
+
+#Crest {
+  height:200px; /*height is 200 pixels */
+  width:200px; /*width is 200 pixels */
+  float:left; /* floats to the left of the page */
+}
+
+.box {
+   background-color:#9dbbe0;
+   color:black;
+   font-family: fantasy;
+   font-size:30px;
+   width: 600px;
+   height: 450px;
+  
+   border: 10px solid white;
+  
+    display:flex; /* the boxes are displayed as flex */
+    justify-content: center; /*content of the box is displayed in the center of the box */
+    align-items: center; /* any items within the box are aligned to the center */
+    flex-wrap:wrap;  /*wraps the content of the flexbox*/
+   }
+
+main{
+    display:grid; /*displays flexboxes in grid format */
+    grid-template-columns:repeat(3, 1fr); 
+    grid-template-rows:repeat(2, 1 fr) ; /* fr = fraction */
+    row-gap:20px; /*gap between rows is 20 pixels*/
+}
+
+#Stoke {
+  height: 300px;
+  width: 300px;
+  cursor:pointer; /*cursor changes to a pointer when hovered over the image */
+}
+#Parking {
+  height: 300px;
+  width: 300px;
+  cursor:pointer;
+}
+footer {
+  background-color: #9dbbe0;
+  color: white;
+  font-size: 25px;
+  font-family: arial;
+  height:175px;
+  width:100%;
+  margin-top: 100px; /*top margin 100 pixels */
+  
+  }
+#Sponsor {
+  padding-left: 5%; /* padding on the left is 200 pixels */
+  padding-right:5%;
+}

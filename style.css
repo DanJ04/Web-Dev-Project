@@ -1,0 +1,82 @@
+body {
+  background-color: blue; /* background colour of body is set to blue */
+  color: white;
+}
+footer {
+  background-color: #9dbbe0;
+  color: white;
+  font-size: 25px;
+  font-family: arial;
+  height:150px;/*height of footer is set to 150 pixels */
+  width:100%;/*width of footer is set to 100% */
+  }
+
+.Menu{
+text-align: center; /*centers text */
+font-size : 25px; /*sets font size to 25 pixels */
+font-family: arial;  /*font type is set to arial */
+word-spacing: 40px ; /* spaces words 20 pixels apart */
+color: white; /*sets text colour of menu to white */
+padding-top: 10px;/*top padding of menu is set to 10 pixels */
+}
+
+ a {
+   color:white;
+   text-decoration-line: none; /*stops nav class text from being underlined */
+   font-family :fantasy;
+   font-size : 30px;
+   }
+h1 {
+  font-family : fantasy;
+  font-size : 60px;
+}
+#Crest {
+  height:150px;
+  width:150px;
+  float:left; /*float image to the left of the page */
+}
+#Stadium {
+  padding-top: 10px;
+  height: 800px;
+  cursor:pointer; /*cursor changes to pointer when hovered over the image */
+  float:none;
+  width: 60%;
+  margin-bottom:10px;
+  margin-left:40px;
+  overflow: hidden;
+  object-position:center; /* the object is postioned in the center of the page */
+  
+}
+#Sponsor {
+  padding-left: 200px;
+  
+}
+
+.box {
+   background-color:#9dbbe0;
+   color:black;
+   font-family: fantasy;
+   font-size:25px;
+   width: 300px;
+   height: 200px;
+   border: 10px solid white;
+   margin-top:10px;
+   margin-bottom: 55px;
+   display:flex;/*display the box as a flex */
+   justify-content: center;/*content of box is centered */
+   align-items: center; /*any items are aligned to the center */
+   flex-wrap:wrap; /*flex box is wrapped-multi line */
+}
+#left {
+  float:left;
+  height:800px;
+  padding-right:20px;
+}
+#right {
+  float:right;
+  height:800px;
+  padding-left:20px;
+}
+
+
+

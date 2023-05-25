@@ -1,0 +1,38 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #093ad6;  /*background colour of the body is set*/
+  color: white; /* body text colour is white */
+  font-family: fantasy; /* font is tahoma */
+  font-size: 30px; /* font size is 20 pixels */
+  text-align: center;
+}
+input {
+  height:40px;
+  width:200px;
+  font-size: 30px;
+  font-family: fantasy;
+}
+#Crest {
+  height:150px; /*height is 150 pixels */
+  width:150px; /* width is 150 pixels */
+  float:left;/*items floats to the left */
+}
+h1 {
+  font-family : fantasy; /*font family is set to fantasy */
+  font-size : 60px; /*font size is 60 pixels */
+  height: 200px;
+  padding-right:200px;
+
+}
+#calculate {
+  width: 200px;
+  height:100px;
+  background-color: #ffffff;
+  border:10px solid black;
+  font-size: 30px;
+  font-family: fantasy;
+  color:#093ad6;
+}

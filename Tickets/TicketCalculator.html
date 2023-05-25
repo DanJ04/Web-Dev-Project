@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Ticket Calculator</title>
+  <link href="TicketStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <img id = "Crest" src = "TicketImages/Cardiff_City_crest.svg.png.crdownload" alt = "Crest" onclick="window.location.href='/index.html';"  > <!-- image id tag with source and alt atttribute -->
+  
+<h1><center>CALCULATE YOUR TICKET PRICE</center></h1>
+  <p><center>Every mile you travel to the stadium equals 1% off your ticket price!</center></p>
+  
+<div id= "Ticket"> <!-- open div tag -->
+  
+<label for="TicketPrice">Original ticket price:£</label> <!-- label tag with id -->
+<input id="TicketPrice" name="TicketPrice" type="number" value="9" /> <!-- input tag with id, name, type and value set -->
+</div> <!-- close div -->
+
+<div id= "Miles">  <!-- open div with id -->
+<label for="NoOfMiles">Number of miles travelling to CCS(M):</label> <!-- label tag with id -->  
+  
+<input id="NoOfMiles" name="NoOfMiles" type="number" value="1"  /> <!-- input tag with id, name, type and value -->
+</div> <!-- close div -->
+  
+<button id="calculate" type="button">CALCULATE</button> <!-- button with id and type -->
+  
+<div id= "Total"> <!-- open div tag with id -->
+   <p>Your new ticket price is: £<span id= "NewPrice"></span> </p> <!-- paragraph tag and span tag -->
+</div> <!-- close div -->
+
+
+<script src="Ticket.js"></script>
+
+
+</body>
+
+</html>
