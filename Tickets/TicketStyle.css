@@ -36,3 +36,17 @@ h1 {
   font-family: fantasy;
   color:#093ad6;
 }
+footer {
+  background-color: #9dbbe0;
+  color: white;
+  font-size: 25px;
+  font-family: arial;
+  height:150px;/*height of footer is set to 150 pixels */
+  width:100%;/*width of footer is set to 100% */
+  }
+
+#Sponsor {
+  padding-left: 10%;
+  position:static;
+  
+}
