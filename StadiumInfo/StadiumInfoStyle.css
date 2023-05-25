@@ -64,6 +64,6 @@ footer {
   
   }
 #Sponsor {
-  padding-left: 5%; /* padding on the left is 200 pixels */
-  padding-right:5%;
+  padding-left: 10%;
+  position:static;
 }
