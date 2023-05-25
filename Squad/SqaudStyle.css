@@ -89,6 +89,7 @@ footer {
   width:100%;
   }
 #Sponsor {
-  padding-left: 200px;
+   padding-left: 10%;
+  position:static;
 }
 
