@@ -25,8 +25,8 @@ h2 {
    color:black;
    font-family: fantasy;
    font-size:30px;
-   width: 600px;
-   height: 450px;
+   width: auto;
+   height: auto;
   
    border: 10px solid white;
   
@@ -41,6 +41,7 @@ main{
     grid-template-columns:repeat(3, 1fr); 
     grid-template-rows:repeat(2, 1 fr) ; /* fr = fraction */
     row-gap:20px; /*gap between rows is 20 pixels*/
+    column-gap:20px; /* gap between columns is 20 pixels */
 }
 
 #Stoke {
